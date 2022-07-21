@@ -1,4 +1,4 @@
 # machine_learning_project
-This is end to end machine learning project
+End-End Machine Leaning Project
 
-Project Name: Housing price
+Project Name: House Price Prediction
