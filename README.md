@@ -22,12 +22,14 @@ pip install -r requirements.tx
 ```
 > Git Comand files
 ```
-To Add files to git
-git add .
+git --version
+git clone
+git add . #to Add files in git
 git add <file name>
 git status
 git log
-git commit -m 'message' #to create version/commit all changes by git
+git commit -m 'message' #to create version/commit all changes in git
 git push origin main #to send version/changes to GitHub
 git remote -v #to check remote URL status
+git pull #all the missing file update in the local system
 ```
