@@ -20,47 +20,14 @@ conda activate venv/
 pip install -r requirements.tx
 
 ```
-
+> Git Comand files
+```
 To Add files to git
-```
 git add .
-
-```
-or
-```
 git add <file name>
-
-```
-
-> Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
-
-To check the git status
-```
 git status
-
-```
-To check all version maintained by git
-```
 git log
-
-```
-To create version/commit all changes by git
-
-```
-git commit -m 'message'
-
-```
-
-To send version/changes to github
-
-```
-git push origin main
-
-```
-
-To check  remote url
-
-```
-git remote -v
-
+git commit -m 'message' #to create version/commit all changes by git
+git push origin main #to send version/changes to GitHub
+git remote -v #to check remote URL status
 ```
