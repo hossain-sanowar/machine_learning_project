@@ -51,3 +51,8 @@ To setup CI/CD pipeline in Heroku, I need 3 information:
 1. Heroku_Email= <>
 2. Heroku_API_KEY= <>
 3. Heroku_APP_Name= <>
+
+```
+python setup.py install
+
+```
