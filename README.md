@@ -46,3 +46,8 @@ docker ps -a # all project running container status
 docker stop container_id #stop container
 docker stop 0cc6448810ee
 ```
+
+To setup CI/CD pipeline in Heroku, I need 3 information:
+1. Heroku_Email= <>
+2. Heroku_API_KEY= <>
+3. Heroku_APP_Name= <>
