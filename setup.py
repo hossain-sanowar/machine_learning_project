@@ -18,6 +18,7 @@ def get_requirements_list()->List[str]:
 
     return This function is going to retun a list which contain name.
     of libraries mentioned in requirements.txt file.
+    example return : ['pandas', 'numpy']
 
     """
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
