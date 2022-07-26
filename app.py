@@ -4,8 +4,8 @@ from housing.logger import logging
 from housing.exception import HousingException
 app=Flask(__name__)
 
-
-@app.route("/", methods=['GET','POST'])
+#Route for home page
+@app.route('/', methods=['GET','POST'])
 def index():
     try:
         raise Exception("we are testing custom exception")
