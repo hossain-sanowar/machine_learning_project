@@ -25,3 +25,6 @@ ModelEvaluationConfig = namedtuple("ModelEvaluationConfig", [
 
 # best model saving in the location
 ModelPusherConfig = namedtuple("ModelPusherConfig", ["export_dir_path"])
+
+# pipeline create
+TrainingPipelineConfig = namedtuple("TrainingPipelineConfig", ["artifact_dir"])
