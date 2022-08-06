@@ -58,3 +58,10 @@ Python setup install:
 python setup.py install
 
 ```
+
+
+install ipykernel
+```
+pip install ipykernel
+
+```
